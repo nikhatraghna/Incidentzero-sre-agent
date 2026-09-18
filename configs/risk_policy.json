@@ -1,0 +1,18 @@
+{
+  "get_incident": "low",
+  "get_service_health": "low",
+  "get_metrics": "low",
+  "get_logs": "low",
+  "get_deployments": "low",
+  "get_dependencies": "low",
+  "get_runbook": "low",
+  "verify_recovery": "low",
+  "restart_service": "medium",
+  "scale_service": "medium",
+  "clear_cache": "medium",
+  "rollback_deployment": "high",
+  "failover_database": "critical",
+  "shift_traffic": "high",
+  "close_incident": "medium",
+  "escalate_incident": "low"
+}

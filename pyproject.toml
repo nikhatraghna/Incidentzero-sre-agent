@@ -1,0 +1,12 @@
+[project]
+name = "incidentzero"
+version = "0.1.0"
+description = "Starter code for a framework-free bounded autonomous SRE agent assignment"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+markers = [
+    "infrastructure: starter infrastructure tests that should pass before student work",
+    "student: behavioral requirements students must satisfy",
+]
+pythonpath = ["."]

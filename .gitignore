@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+*.pyo
+*.log
+# traces/*.jsonl are deliverables (R13) and must be committed/zipped
+artifacts/
+.DS_Store

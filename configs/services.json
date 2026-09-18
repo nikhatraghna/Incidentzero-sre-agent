@@ -1,0 +1,21 @@
+{
+  "services": [
+    "edge-gateway",
+    "auth-service",
+    "catalog-service",
+    "cart-service",
+    "checkout-service",
+    "payment-service",
+    "inventory-service",
+    "order-service",
+    "redis-cache",
+    "order-db"
+  ],
+  "critical_path": [
+    "edge-gateway",
+    "checkout-service",
+    "payment-service",
+    "order-service",
+    "order-db"
+  ]
+}

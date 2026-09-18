@@ -1,0 +1,8 @@
+{
+  "max_llm_calls": 14,
+  "max_tool_calls": 28,
+  "max_consecutive_model_retries": 3,
+  "max_same_action_repeats": 2,
+  "max_runtime_seconds": 120,
+  "warning_llm_calls_remaining": 3
+}
