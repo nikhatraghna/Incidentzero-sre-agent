@@ -2,7 +2,7 @@
 
 > DRAFT prepared with AI help. Before submitting, check every statement below against what you actually did, rewrite it in your own words, and delete this note.
 
-Name: [YOUR FULL NAME]
+Name: Nikhat Raghna
 Roll number: i25-8029
 
 ## Tools used
@@ -27,4 +27,4 @@ Fix: build the evidence list from every successful observation (including `get_i
 ## Code ownership statement
 I can explain every submitted component, its failure behavior, and the trade-offs I chose. I understand that the TA may ask me to modify the code during viva.
 
-Signature / typed name: [YOUR FULL NAME]
+Signature / typed name: Nikhat Raghna
