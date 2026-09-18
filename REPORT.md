@@ -1,6 +1,6 @@
 # Engineering Report - Assignment 1: IncidentZero
 
-**Student:** [YOUR NAME] - roll no. i25-8029 - **Model:** `openai/gpt-oss-20b` on Groq
+**Student:** Nikhat Raghna - roll no. i25-8029 - **Model:** `openai/gpt-oss-20b` on Groq
 
 **Provenance of numbers.** The public-a/b/c table in Section 5 is generated from the live traces by `scripts/summarize_trace.py`; nothing in it is estimated. The three failure traces in Section 6 are *offline scripted rehearsals*: the real controller, registry and simulator driven by a `ScriptedModelClient` with fixture IDs (TEST-001, TEST-003), stored in `traces/offline/`.
 
