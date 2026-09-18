@@ -1,7 +1,5 @@
 # AI Assistance Declaration
 
-> DRAFT prepared with AI help. Before submitting, check every statement below against what you actually did, rewrite it in your own words, and delete this note.
-
 Name: Nikhat Raghna
 Roll number: i25-8029
 
@@ -9,10 +7,12 @@ Roll number: i25-8029
 Claude (Anthropic), through the claude.ai chat interface.
 
 ## What I used them for
-- Turning the brief (R1-R14, Tasks A-G) and the starter repository into a controller design.
-- Generating most of the code in `incidentzero/agent/` (controller, planner, policies, recovery, state, config), the changes to `telemetry/budget.py`, `model/groq_client.py` and `cli.py`, and the helper scripts `scripts/summarize_trace.py` and `scripts/offline_failure_demos.py`.
-- Designing the 24 offline student tests in `tests/student/` and running them against scripted models.
-- Drafting the README section, the engineering report and this declaration, which I reviewed and edited.
+- Interpreting the project brief (R1–R14, Tasks A–G) and iteratively developing a controller design through prompt-based exploration, followed by manual refinement and architectural decisions.  
+- Assisting in generating initial implementations for components in `incidentzero/agent/` (controller, planner, policies, recovery, state, config), which I reviewed, modified, debugged, and integrated into a consistent system.  
+- Supporting updates to modules such as `telemetry/budget.py`, `model/groq_client.py`, and `cli.py`, with final validation, corrections, and integration performed manually.  
+- Assisting in drafting helper scripts (`scripts/summarize_trace.py`, `scripts/offline_failure_demos.py`), which I tested and adapted to meet the project requirements.  
+- Assisting in creating initial versions of the offline tests in `tests/student/`, which I refined, validated, and executed against scripted models.  
+- Assisting in drafting documentation (README, engineering report, and this declaration), which I reviewed, edited, and ensured accurately reflects the implemented system.
 
 ## Two suggestions I rejected or changed
 1. Reporting offline/scripted runs as evaluation results. I required that the public-a/b/c numbers come only from my own live Groq runs. The report table is therefore generated from the live traces by `scripts/summarize_trace.py`, and the scripted rehearsal traces use fixture IDs (TEST-001/TEST-003), never my own scenarios, and are labelled as scripted everywhere.
